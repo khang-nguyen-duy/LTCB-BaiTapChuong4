@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "MaxValueInFileTest",
+      "setup": "",
+      "run": "gradle test --tests \"MaxValueInFileTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "SumOfOddsTest",
+      "setup": "",
+      "run": "gradle test --tests \"SumOfOddsTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "AverageDigitsInAStringTest",
+      "setup": "",
+      "run": "gradle test --tests \"AverageDigitsInAStringTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "MaxValueInFileTest",
+      "setup": "",
+      "run": "gradle test --test \"MaxValueInFileTest\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
