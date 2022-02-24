@@ -8,8 +8,15 @@ public class AverageDigitsInAString {
      */
     public static double average(String s)
     {
+        int sum=0;
+        String string ="Hello123";
+        for (int i = 0; i <string.length(); i++) {
+            char c = string. charAt(i);
+            if(c >= '0' && c <= '9')
+                sum += c - '0';
+        }
 
-        double result = ...;
+        double result = sum/3;
         return  result;
     }
 }

@@ -7,7 +7,11 @@ public class SumOfOdds {
      * @return
      */
     public static int sumOfOdds(int n){
-        int sum = ...
+        int sum = 0;
+        for(int i = 0; i<=n ;i++)
+            if (i%2==1)
+                sum+= i;
+        System.out.println("sum"+sum);
         return sum;
     }
 }

@@ -14,8 +14,15 @@ public class MaxValueInFile {
      * @throws FileNotFoundException
      */
     public static double maxValueInFile(String fileName) throws FileNotFoundException {
+        File file=new File(fileName);
+        Scanner scanner=new Scanner(file);
+        double max = 0;
+        while (scanner.hasNext()){
+            max = scanner.nextDouble();
 
-        double result = ...
+        }
+
+        double result = max;
         return result;
     }
 }
